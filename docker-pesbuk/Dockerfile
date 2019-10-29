@@ -2,11 +2,11 @@ from php:7.1-apache
 
 WORKDIR /var/www/html
 
-RUN apt-get update && apt-get -y install unzip wget
-RUN wget https://github.com/sdcilsy/sosial-media/archive/master.zip
+RUN apt-get update && apt-get -y install wget unzip
+RUN wget https://github.com/denlulung/aris-sp3/archive/master.zip
 RUN unzip master.zip
-RUN mv sosial-media-master/* .
-RUN apt-get -y install php7.1-mysql
+RUN mv aris-sp3-master/docker-pesbuk/* .
+# RUN apt-get -y install php7.1-mysql
 
 RUN service apache2 restart
 

@@ -2,7 +2,7 @@
 
 $db_host = "db-aris-sp3.cf4kbdfuw9lt.us-east-2.rds.amazonaws.com";
 $db_user = "aris";
-$db_pass = "1234567890";
+$db_pass = "123suksesbos";
 $db_name = "pesbuk";
 
 try {    
